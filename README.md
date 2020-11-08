@@ -1,5 +1,8 @@
 ## Spring Boot Profile Properties
 
+### Scala:
+Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries.
+
 ### Profiles:
 Spring Profiles provide a way to segregate parts of your application configuration and make it only available in certain environments
 Spring boot allows to add profile-specific properties files by using application-{myProfileName}.properties pattern.
@@ -24,6 +27,7 @@ add resource tag to pom.xml inside <build> tag for reading properties by @Value
 ```
 
 further references:     
+- https://www.scala-lang.org/
 - https://docs.spring.io/spring-boot/docs/1.1.x/reference/html/boot-features-profiles.html
 - https://www.logicbig.com/tutorials/spring-framework/spring-boot/profile-specific-properties.html
 - https://stackoverflow.com/questions/41244585/how-to-set-spring-active-profile-environment-variable-in-intellij/46345476
